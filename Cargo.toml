@@ -1,6 +1,6 @@
 [package]
 name = "rotbuf"
-version = "0.0.2"
+version = "0.0.3"
 edition = "2021"
 authors = ["Stephen Maldonado"]
 description = "RotBuf is a Queue implementation wrapped around the `Bytes` crates' BytesMut data structure."
