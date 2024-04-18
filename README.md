@@ -1,11 +1,11 @@
-# RotatingBuffer
+# Rotating Buffer (RotBuf)
 
 A dynamically sized Queue implementation using the `Bytes` crate's BufferMut.  The RotatingBuffer allows user to store sequenced bytes in a bytes buffer without needing to move data down the buffer.
 
 To get started, you can easily create a `RotatingBuffer` knowing only the maximum size.  Resizing is not currently implemented but may be implemented in the future, so choose your size wisely.
 
 ```rust
-use rotatingbuffer::RotatingBuffer;
+use rotbuf::RotatingBuffer;
 
 fn create_rotating_buffer() -> RotatingBuffer {
     RotatingBuffer::new(10)
