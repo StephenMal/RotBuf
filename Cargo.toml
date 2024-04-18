@@ -15,9 +15,7 @@ categories = ["encoding", "data-structures"]
 
 [dependencies]
 bytes = "1.6.0"
-env_logger = { version = "0.11.3", optional = true }
-log = { version = "0.4.21", optional = true }
 
 [features]
 default = ["DEBUG_TRACING"]
-DEBUG_TRACING = ["dep:env_logger", "dep:log"]
+DEBUG_TRACING = []
